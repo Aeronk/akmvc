@@ -1,0 +1,13 @@
+{
+    "name": "aaronkatema/akmvc",
+    "description": "MVC framework, cool and nice",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aaron Katema",
+            "email": "aaronkatema@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
