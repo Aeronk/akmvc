@@ -1,7 +1,13 @@
 {
     "name": "aaronkatema/akmvc",
     "description": "MVC framework, cool and nice",
+    "keywords": ["framework","php","akmvc"],
     "license": "MIT",
+    "support": {
+        "issues": "https://github.com/Aeronk/akmvc/issues",
+        "source": "https://github.com/Aeronk/akmvc"
+
+    },
     "authors": [
         {
             "name": "Aaron Katema",
@@ -9,5 +15,23 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php":"7.4.2| ^8.0",
+        "ext-mbstring":"*",
+        "ext-iconv":"*",
+        "ext-pdo":"*",
+        "ext-json":"*",
+        "ext-curl":"*",
+        "ext-simplexml":"*"
+    },
+    "autoload": {
+        "psr-4":{
+            "Katema\\": "src/Katema"
+        }
+    },
+    "autoload-dev": {
+        "psr-4":{
+            "Katema\\Tests\\": "tests/"
+        }
+    }
 }
